@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Blacklist",
+	"version": "1.0",
+	
+	"description": "blocks any website the user desires",
+
+	"icons": {
+		"128": "icons/icon.png"
+	},
+
+	"permissions": [
+		"tabs"
+	],
+
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
